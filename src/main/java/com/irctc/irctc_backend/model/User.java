@@ -11,7 +11,7 @@ import lombok.AllArgsConstructor;
 public class User {
 
     @Id
-    private int userId;
+    private Integer userId;
 
     private String name;
     private String email;

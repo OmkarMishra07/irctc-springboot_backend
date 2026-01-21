@@ -14,7 +14,7 @@ import lombok.Setter;
 @AllArgsConstructor
 public class Train {
     @Id
-    private  int trainId;
+    private  Integer trainId;
     private String trainName;
     @ManyToOne
     @JoinColumn(name = "source_station_code")
@@ -22,7 +22,7 @@ public class Train {
     @ManyToOne
     @JoinColumn(name = "destination_station_code")
     private Station destination;
-    private int seats;
+    private Integer seats;
 
 
 }
